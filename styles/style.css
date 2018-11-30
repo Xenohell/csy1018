@@ -109,6 +109,7 @@ li.active a {
 }
 
 h3 {
+    clear: both;
     color: rgb(15, 15, 15);
     font-family: 'Bitter', serif;
     font-size: 24px;
