@@ -22,7 +22,7 @@ body{
     background-color:  rgb(243, 243, 243); /* sets the background colour for the body */
     text-align: justify; /* aligns the text so it occupies the whole row */
     margin-bottom: 50px;
-
+    height: 100vh;
 }
 
 header h1 a {
@@ -158,12 +158,13 @@ footer  {
     column-span:all; /* extends the footer over the columns */
     padding: 20px;
     text-align: center; /* centrates the text */
-    position: fixed; /* fixes the footer on the bottom of the screen */
+    position: sticky; /* fixes the footer on the bottom of the screen */
     height: 30px; /* sets the height of the footer */
     bottom: 0px;
     left: 0px;
     right: 0px;
     margin-bottom: 0px;
+    
 }
 footer ul {
     list-style-type: none; /* hides styles for lists */
@@ -177,6 +178,7 @@ footer li {
     margin-right: 0px;
     border-right: 1px solid rgb(255, 255, 255);
     padding:0 30px;
+    overflow: hidden;
 }
 
 footer h6 a {
