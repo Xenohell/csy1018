@@ -22,7 +22,7 @@ body{
     background-color:  rgb(243, 243, 243); /* sets the background colour for the body */
     text-align: justify; /* aligns the text so it occupies the whole row */
     margin-bottom: 50px;
-    overflow: visible;
+
 }
 
 header h1 a {
@@ -48,7 +48,7 @@ strong {
 }
 
 .left i:hover {
-  font-size: 20px;
+  font-size: 20px; /* set the font size of text when it is hovered on */
 }
 
 .left {
@@ -66,11 +66,11 @@ strong {
 } 
 
 nav {
-    background-color:#1E392A;
+    background-color:#1E392A; /* set the background color of the navigation bar */
     padding: 10px;
-    text-align: center;
-    border-style: outset;
-    border-radius: 20px;
+    text-align: center; /* align the text from the navigation bar */
+    border-style: outset; /* sets the style for the border */
+    border-radius: 20px; /* set the border's corners' roundness */
   }
   
 nav ul {
@@ -88,7 +88,7 @@ nav li {
 }
   
 li:last-child {
-    border-right: none;
+    border-right: none;  /* deletes the border on the right side of the last element in the list */
 }
   
 li a {
@@ -100,12 +100,12 @@ li a {
 }
   
 li a:hover {
-    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);  /* changes the colour of the list item when it is hoverd on */
 }
   
 li.active a {
-    font-weight: bold;
-    color: rgb(220, 220, 220);
+    font-weight: bold;  /* changes how the text looks on the selected item from the list */
+    color: rgb(220, 220, 220); /* changes the colour of the list item that is selected */
 }
 
 h3 {
@@ -116,13 +116,12 @@ h3 {
 }
 
 p {
-    clear: both;
+    clear: both; /* clears the text from appearing next to a floating element */
     color: rgb(15, 15, 15);
     font-family: 'Crimson Text', serif;
     font-size: 18px;;	
     line-height: 20px;
-    text-align: justify;
-    text-justify: inter-word;
+    text-align: justify; /* alligns the text to occupy the whole row */
 }
 
 i.little{
@@ -130,37 +129,36 @@ i.little{
     font-size: 5px;
 }
 i.little:hover{
-    font-size: 20px;
+    font-size: 20px; /* changes the font size of the text when it is hovered on */
 }
 
 ul {
-    list-style-type: circle;
+    list-style-type: circle; /* changes the list bullet style */
     margin: 0px;
     padding: 0px;
-    display: inline-block; /* displays the*/
+    display: inline-block; /* displays the items in a single block */
 }
 
 body img {
-    column-span: all;
-    height: 50%;
-    width: 100%;
+    column-span: all; /* extends the image over the columns */
+    width: 100%; /* the image will always be fully seen, occupying the space from the left to the right, even when the window is resized */
 
 }
 
 h3.all {
-    text-align: center;
-    column-span: all;
+    text-align: center; /* aligns the text on center */
+    column-span: all; /* extends the text over the columns */
 }
 
 footer  {			
-    background-color:#444;
+    background-color:#444; /* sets the footer background colour */
     font-family:  'Audiowave', serif;	
     line-height: 20px;
-    column-span:all;
+    column-span:all; /* extends the footer over the columns */
     padding: 20px;
-    text-align: center;
-    position: fixed;
-    height: 30px;
+    text-align: center; /* centrates the text */
+    position: fixed; /* fixes the footer on the bottom of the screen */
+    height: 30px; /* sets the height of the footer */
     bottom: 0px;
     left: 0px;
     right: 0px;
@@ -170,7 +168,7 @@ footer ul {
     list-style-type: none; /* hides styles for lists */
     margin: 0px;
     padding: 0px;
-    display: inline-block; /* displays the*/
+    display: inline-block; /* displays the list items in a single line block*/
 }
 
 footer li {
@@ -182,9 +180,8 @@ footer li {
 
 footer h6 a {
     font-size: 15px;
-    flex-flow: column;
-    color:  #3CC47C;
-    text-decoration: none;
+    color:  #3CC47C; /* sets the footer header colour */
+    text-decoration: none; /* gets rid of all decorations on the text (the underline) */
     font-family: 'Audiowide', serif;
 }
 
