@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Audiowide');
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+@import url('https://fonts.googleapis.com/css?family=Bitter');
 
 * {
     margin:0;
@@ -20,6 +21,8 @@ header {
 body{ 
     background-color:  rgb(243, 243, 243); /* sets the background colour for the body */
     text-align: justify; /* aligns the text so it occupies the whole row */
+    margin-bottom: 50px;
+    overflow: visible;
 }
 
 header h1 a {
@@ -39,18 +42,18 @@ strong {
     font-family: 'Audiowide', serif;
 }
 
-i {
+.left i {
   display: block; /* displays the text as a block of text*/
   font-size: 5px;
 }
 
-i:hover {
+.left i:hover {
   font-size: 20px;
 }
 
 .left {
   float: left;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Bitter', serif;
   background-color: rgb(202, 202, 202);
   margin: 5px;
   width: 200px; /* set the width and of the float box */
@@ -70,14 +73,14 @@ nav {
     border-radius: 20px;
   }
   
-ul {
+nav ul {
     list-style-type: none; /* hides styles for lists */
     margin: 0px;
     padding: 0px;
     display: inline-block; /* displays the*/
 }
   
-li {
+nav li {
     float: left; /* sets the navigation bar items in a line from left to right */
     margin-right: 0px;
     border-right: 1px solid rgb(255, 255, 255);
@@ -105,27 +108,76 @@ li.active a {
     color: rgb(220, 220, 220);
 }
 
-p {
-  color: rgb(15, 15, 15);
-  font-size: 18px;;	
-  line-height: 20px;
-  margin: 0 2%;
-  padding: 0 0 1.4em 0;
-  text-align: justify;
-  text-justify: inter-word;
+h3 {
+    color: rgb(15, 15, 15);
+    font-family: 'Bitter', serif;
+    font-size: 24px;
+    line-height:20px;
 }
-    
+
+p {
+    clear: both;
+    color: rgb(15, 15, 15);
+    font-family: 'Crimson Text', serif;
+    font-size: 18px;;	
+    line-height: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+i.little{
+    display: block; /* displays the text as a block of text*/
+    font-size: 5px;
+}
+i.little:hover{
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: circle;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block; /* displays the*/
+}
+
+body img {
+    column-span: all;
+    height: 50%;
+    width: 100%;
+
+}
+
+h3.all {
+    text-align: center;
+    column-span: all;
+}
+
 footer  {			
     background-color:#444;
-    font-family:  Audiowave, serif;	
+    font-family:  'Audiowave', serif;	
     line-height: 20px;
     column-span:all;
-    display: block;
-    bottom: 0px;
-    margin: 0px;
-    padding: 30px;
-    position: relative;
+    padding: 20px;
     text-align: center;
+    position: fixed;
+    height: 30px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+footer ul {
+    list-style-type: none; /* hides styles for lists */
+    margin: 0px;
+    padding: 0px;
+    display: inline-block; /* displays the*/
+}
+
+footer li {
+    float: left; /* sets the navigation bar items in a line from left to right */
+    margin-right: 0px;
+    border-right: 1px solid rgb(255, 255, 255);
+    padding:0 30px;
 }
 
 footer h6 a {
@@ -184,7 +236,7 @@ footer h6 a {
         padding-right: 4%;
         padding-top: 2em;
         padding-bottom: 2em;
-        column-count: 4;
+        column-count: 5;
         column-gap: 2em;	
         column-rule: 1px dotted #ccc;
     }
@@ -206,7 +258,7 @@ footer h6 a {
         padding-right: 4%;
         padding-top: 2em;
         padding-bottom: 2em;
-        column-count: 3;
+        column-count: 4;
         column-gap: 2em;	
         column-rule: 1px dotted #ccc;
     }
@@ -266,7 +318,7 @@ footer h6 a {
         margin:	4% 5%;
         width: 90%;
         padding: 0;
-        column-count: 1;
+        column-count: 2;
     }
     
 }
