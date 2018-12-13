@@ -151,8 +151,7 @@ h3.all {
     column-span: all; /* extends the text over the columns */
 }
 a {
-    
-    color: rgb(151, 0, 0)
+    color: rgb(151, 0, 0);
 }
 
 footer  {			
