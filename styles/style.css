@@ -215,7 +215,7 @@ footer h6 a {
         padding-right: 4%;
         padding-top: 25px;
         padding-bottom: 2em;
-        column-count: 4;
+        column-count: 5;
         column-gap: 2em;	
         column-rule: 2px dotted #ccc;
     }
