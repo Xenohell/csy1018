@@ -143,6 +143,7 @@ ul {
 body img {
     column-span: all; /* extends the image over the columns */
     width: 100%; /* the image will always be fully seen, occupying the space from the left to the right, even when the window is resized */
+    height: 25%;
 
 }
 
