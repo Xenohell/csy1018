@@ -143,8 +143,6 @@ ul {
 body img {
     column-span: all; /* extends the image over the columns */
     width: 100%; /* the image will always be fully seen, occupying the space from the left to the right, even when the window is resized */
-    height: 25%;
-
 }
 
 h3.all {
@@ -191,9 +189,11 @@ footer h6 a {
     font-family: 'Audiowide', serif;
 }
 
-/* Breakpoints */ 
-
-/* the "!important" rule overrides particular properties */
+/* 
+Breakpoints
+The "!important" rule overrides previous properties.
+The breakpoints make the site responsive, changing the layout based on the resolution.
+*/
 
 @media all and (min-width: 1920px) { 
 
@@ -202,9 +202,6 @@ footer h6 a {
     }
     header {
         margin: 0 0.5% 2% 0.5% !important;
-    }
-    footer {
-        margin: 2% 0.5% 1% 0.5% !important;
     }
     article {
         position: relative;
@@ -286,7 +283,7 @@ footer h6 a {
     
 }
 
-@media all and (max-width: 1019px) and (min-width: 800px) {
+@media all and (max-width: 1019px) and (min-width: 600px) {
     body	{
         font-size: 90%;
     }
@@ -304,25 +301,7 @@ footer h6 a {
     
 }
 
-@media all and (max-width: 799px) and (min-width: 480px) {
-    body	{
-        font-size: 85%; 
-    }
-    header	{
-        margin: 1% 2% 6% 2%;
-        padding: 0 0 2% 0
-    }
-    article {
-        position: relative;
-        margin:	4% 5%;
-        width: 90%;
-        padding: 0;
-        column-count: 2;
-    }
-    
-}
-
-@media all and (max-width: 479px){
+@media all and (max-width: 599px){
     body {
         font-size: 80%;
     }
