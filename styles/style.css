@@ -157,14 +157,12 @@ a {
 footer  {			
     background-color:#444; /* sets the footer background colour */
     font-family:  'Audiowave', serif;	
-    line-height: 20px;
     column-span:all; /* extends the footer over the columns */
     padding: 20px;
     text-align: center; /* centrates the text */
     position: sticky; /* fixes the footer on the bottom of the screen */
     height: 30px; /* sets the height of the footer */
     overflow-y: scroll; /* scrollable only vertically */
-    padding-right: 20px;
     margin-bottom: 0;
 }
 footer::-webkit-scrollbar { /* Hide the footer scrollbar in Chrome*/
