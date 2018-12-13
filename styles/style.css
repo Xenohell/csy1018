@@ -150,6 +150,10 @@ h3.all {
     text-align: center; /* aligns the text on center */
     column-span: all; /* extends the text over the columns */
 }
+a {
+    
+    color: rgb(151, 0, 0)
+}
 
 footer  {			
     background-color:#444; /* sets the footer background colour */
@@ -159,12 +163,8 @@ footer  {
     padding: 20px;
     text-align: center; /* centrates the text */
     position: sticky; /* fixes the footer on the bottom of the screen */
-    height: 70px; /* sets the height of the footer */
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    margin-bottom: 0px;
-    overflow-y: scroll;
+    height: 30px; /* sets the height of the footer */
+    overflow-y: scroll; /* scrollable only vertically */
     padding-right: 20px;
 }
 footer::-webkit-scrollbar { /* Hide the footer scrollbar in Chrome*/
@@ -201,15 +201,12 @@ footer h6 a {
     body {
         font-size: 100%;
     }
-
     header {
         margin: 0 0.5% 2% 0.5% !important;
     }
-
     footer {
         margin: 2% 0.5% 1% 0.5% !important;
     }
-
     article {
         position: relative;
         margin:	auto;
@@ -222,7 +219,6 @@ footer h6 a {
         column-gap: 2em;	
         column-rule: 2px dotted #ccc;
     }
-
 }
 
 @media all and (max-width: 1919px) and (min-width: 1680px) {
