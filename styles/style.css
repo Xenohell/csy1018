@@ -158,10 +158,9 @@ footer  {
     background-color:#444; /* sets the footer background colour */
     font-family:  'Audiowave', serif;	
     column-span:all; /* extends the footer over the columns */
-    padding: 20px;
     text-align: center; /* centrates the text */
     position: sticky; /* fixes the footer on the bottom of the screen */
-    height: 30px; /* sets the height of the footer */
+    height: 50px; /* sets the height of the footer */
     overflow-y: scroll; /* scrollable only vertically */
     margin-bottom: 0;
 }
