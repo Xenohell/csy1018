@@ -162,7 +162,7 @@ footer  {
     height: 70px; /* sets the height of the footer */
     margin-left: 0;
     overflow-y: scroll; /* scrollable only vertically */
-    padding: 0 20px 20px 20px;
+    padding: 0 0px 20px 20px;
 }
 footer::-webkit-scrollbar { /* Hide the footer scrollbar in Chrome*/
     display: none;
